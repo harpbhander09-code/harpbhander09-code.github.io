@@ -1,2 +1,3 @@
-# harpbhander09-code.github.io
-Developer website for Ravel and future apps
+# Bhander Labs website
+
+Static GitHub Pages site for Ravel privacy, support, and app-ads.txt.

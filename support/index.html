@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ravel Support</title>
+  <meta name="description" content="Support and data request information for Ravel.">
+  <style>
+:root {
+  color-scheme: dark;
+  --bg: #05070d;
+  --panel: #0d1220;
+  --text: #f6f7fb;
+  --muted: #aab2c4;
+  --cyan: #00e5ff;
+  --purple: #8645ff;
+  --magenta: #ff4ed6;
+  --border: rgba(255,255,255,.12);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(0,229,255,.10), transparent 30%),
+    radial-gradient(circle at top right, rgba(255,78,214,.08), transparent 28%),
+    var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+}
+main {
+  width: min(900px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 64px 0 80px;
+}
+.hero {
+  padding: 40px;
+  background: linear-gradient(145deg, rgba(13,18,32,.96), rgba(8,11,20,.96));
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  box-shadow: 0 24px 80px rgba(0,0,0,.35);
+}
+.brand {
+  font-size: clamp(2.4rem, 7vw, 5rem);
+  line-height: 1;
+  margin: 0 0 12px;
+  letter-spacing: -.045em;
+  background: linear-gradient(90deg, var(--cyan), var(--purple), var(--magenta));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+h1, h2, h3 { line-height: 1.2; }
+h1 { font-size: clamp(2rem, 5vw, 3.25rem); }
+h2 { margin-top: 2.2rem; }
+p, li { color: var(--muted); }
+a { color: var(--cyan); }
+nav {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+.button {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  color: var(--text);
+  background: rgba(255,255,255,.04);
+}
+.button:hover { background: rgba(255,255,255,.08); }
+.card {
+  margin-top: 24px;
+  padding: 28px;
+  background: rgba(13,18,32,.90);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+}
+.small { font-size: .95rem; }
+footer {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: .9rem;
+}
+code {
+  color: #dce4ff;
+  background: rgba(255,255,255,.06);
+  padding: .1rem .3rem;
+  border-radius: 5px;
+}
+</style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="small"><a href="/">Bhander Labs</a></p>
+      <h1>Ravel Support</h1>
+      <p>Questions, bug reports, privacy requests, and account help.</p>
+    </section>
+
+    <section class="card">
+      <h2>Contact support</h2>
+      <p>Email <a href="mailto:bhanderlabs@gmail.com?subject=Ravel%20Support">bhanderlabs@gmail.com</a>. Include your device model, iOS version, app version, and a description of what happened.</p>
+
+      <h2>Basic troubleshooting</h2>
+      <ul>
+        <li>Close and reopen Ravel.</li>
+        <li>Confirm your iPhone is connected to the internet for leaderboard and ad features.</li>
+        <li>Check iOS Settings if notifications were previously denied.</li>
+        <li>Install the latest version of Ravel available from the App Store or TestFlight.</li>
+      </ul>
+
+      <h2>Data access or deletion requests</h2>
+      <p>Email <a href="mailto:bhanderlabs@gmail.com?subject=Ravel%20Data%20Request">bhanderlabs@gmail.com</a> with the subject “Ravel Data Request.” Include your Ravel player code or display name if available so we can locate the correct record. Do not send sensitive identification documents unless we specifically request them.</p>
+
+      <h2>Privacy</h2>
+      <p>Read the <a href="/privacy/">Ravel Privacy Policy</a>.</p>
+    </section>
+
+    <footer>
+      <p><a href="/">Home</a> · <a href="/privacy/">Privacy Policy</a></p>
+    </footer>
+  </main>
+</body>
+</html>
